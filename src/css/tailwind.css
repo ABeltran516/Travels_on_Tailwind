@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "@tailwindcss/typography";
+
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
+}
+
+
+
+
+
+
+
+
+/* Para hacer rebuild e iniciar el código, usa: 
+    npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch
+    o
+    npm run tw:build 
+*/
