@@ -765,6 +765,10 @@ select {
   left: 0px;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .mr-24 {
   margin-right: 6rem;
 }
@@ -773,8 +777,8 @@ select {
   margin-top: 1.5rem;
 }
 
-.ml-16 {
-  margin-left: 4rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -827,6 +831,14 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-center {
+  scroll-snap-align: center;
 }
 
 .flex-col {
@@ -954,12 +966,32 @@ select {
   background-image: url('../img/switzerland.jpg');
 }
 
+.bg-sydney {
+  background-image: url('../img/sydney.jpg');
+}
+
 .bg-yosemite {
   background-image: url('../img/yosemite.jpg');
 }
 
+.bg-europe {
+  background-image: url('../img/europe.jpg');
+}
+
+.bg-iceland {
+  background-image: url('../img/iceland.jpg');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .fill-current {
@@ -1007,6 +1039,16 @@ select {
   padding-bottom: 1rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1023,6 +1065,14 @@ select {
   padding-top: 0.5rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-Montserrat {
   font-family: Montserrat, sans-serif;
 }
@@ -1035,6 +1085,11 @@ select {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-lg {
@@ -1052,9 +1107,8 @@ select {
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -1063,10 +1117,6 @@ select {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .text-black {
@@ -1240,16 +1290,8 @@ select {
     height: 24rem;
   }
 
-  .lg\:h-auto {
-    height: auto;
-  }
-
   .lg\:w-2\/5 {
     width: 40%;
-  }
-
-  .lg\:w-2\/3 {
-    width: 66.666667%;
   }
 
   .lg\:items-start {
@@ -1258,12 +1300,6 @@ select {
 
   .lg\:justify-start {
     justify-content: flex-start;
-  }
-
-  .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1282,18 +1318,6 @@ select {
 
   .lg\:bg-center {
     background-position: center;
-  }
-
-  .lg\:pt-48 {
-    padding-top: 12rem;
-  }
-
-  .lg\:pt-56 {
-    padding-top: 14rem;
-  }
-
-  .lg\:pt-36 {
-    padding-top: 9rem;
   }
 
   .lg\:pt-20 {
