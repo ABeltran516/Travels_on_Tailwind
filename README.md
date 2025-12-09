@@ -8,4 +8,5 @@ You also gonna find notes about several docs like `tailwind.config.js`,  how to 
 **It's still unfinished yet**, but i'm gonna update it frecuently.
 
 Here is the Github Pages link for this project if you wanna take a look:
-	
+
+[Travels on Tailwind Site](https://abeltran516.github.io/Travels_on_Tailwind/ "Travels on Tailwind Site")
