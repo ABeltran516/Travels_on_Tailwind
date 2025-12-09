@@ -1,0 +1,10 @@
+#Ignora los siguientes archivos
+*.gif
+*.zip
+
+#Ignora estos directorios 
+
+node_modules/
+dist/
+.env
+
